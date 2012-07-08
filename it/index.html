@@ -97,7 +97,7 @@
             <nav>
                 <ul class="toc">
                     <li><a href="#introduction">Introduzione</a></li>
-                    <li><a href="#code-style-guide">Guida al coding style</a></li>
+                    <li><a href="#code-style-guide">Guida alla formattazione del codice</a></li>
                     <li><a href="#namespaces">Namespaces</a></li>
                     <li><a href="#input-filtering">Filtrare l'input</a></li>
                     <li><a href="#databases-and-pdo">Database e PDO</a></li>
@@ -186,23 +186,22 @@
         </section>
 
         <section class="content" id="input-filtering">
-            <h2>Input Filtering</h2>
+            <h2>Filtrare l'input</h2>
             <p>
-                Never ever (<em>ever</em>) trust foreign input introduced to your PHP code. That lead's to dark
-                and dangerous places. Instead, always filter foreign input before you use it in your code.
+		Nel vostro codice PHP non dovete mai e poi mai (<em>ma proprio mai</em>) dar fiducia all'input proveniente dall'esterno. 			E' un attaggiamento che porta in luoghi oscuri e pericolosi. Invece, è opportuno filtrare sempre l'input esterno prima di 		usarlo.
             </p>
             <p>
-                PHP provides the <code>filter_var</code> and <code>filter_input</code> functions to help
-                you do this. These two functions can sanitize text, verify formats (e.g. email addresses),
-                and escape characters.
+                PHP fornisce le funzioni di <code>filter_var</code> e <code>filter_input</code> per aiutarti a farlo.
+                Queste due funzioni ripuliscono il testo, ne verificano il formato (ie. che sia un'email valida) e 
+		fanno l'escape dei caratteri.
             </p>
             <p>
-                For example, if you accept code from an HTML form, you'll want to use <code>filter_input</code>
-                before inserting the input into a database or inserting the input into an HTML response.
+                Ad esempio, se accetti codice da una form HTML, dovrai usare la funzione di code>filter_input</code>
+                prima di usarla come input per un database o per inserirne il contenuto nell'HTML restituito.
             </p>
             <ul>
-                <li><a href="http://php.net/manual/en/function.filter-var.php">Learn about <code>filter_var</code></a></li>
-                <li><a href="http://www.php.net/manual/en/function.filter-input.php">Learn about <code>filter_input</code></a></li>
+                <li><a href="http://php.net/manual/en/function.filter-var.php">Impara ad usare <code>filter_var</code></a></li>
+                <li><a href="http://www.php.net/manual/en/function.filter-input.php">Impara ad usare <code>filter_input</code></a></li>
             </ul>
             <a class="top" href="#top">&uarr; Torna in cima</a>
         </section>
