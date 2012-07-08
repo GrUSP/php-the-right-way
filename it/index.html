@@ -114,18 +114,22 @@
         <section class="content" id="introduction">
             <h2>Introduzione</h2>
             <p>
-                C'è un sacco di cattiva informazione sul web (si, stiamo guardando te W3School) che porta i nuovi utenti di PHP fuori 		strada, che promuovono cattive pratiche e codice scritto male. Bisogna porre un freno a tutto ciò. <em>PHP: Nel modo 		corretto</em> fornisce una guida facile da leggere sulle migliori pratiche di PHP, sui coding standard accettati, e 		link a tutorial in giro per il web.	
+                C'è un sacco di cattiva informazione sul web (si, stiamo guardando te W3School) che porta i nuovi
+                utenti di PHP fuori strada, che promuovono cattive pratiche e codice scritto male. Bisogna porre un
+                freno a tutto ciò. <em>PHP: Nel modo corretto</em> fornisce una guida facile da leggere sulle
+                migliori pratiche di PHP, sui coding standard accettati, e link a tutorial in giro per il web.
             </p>
             <p>
-		E' importante capire <em>non c'è modo standard di utilizzare PHP</em>. Questa è la sua bellezza.
-                Questo sito vuole introdurre i nuovi sviluppatori PHP alle migliori pratiche, dando tutte le opzioni a disposizione, e 				una buona informazione.
+                E' importante capire <em>non c'è modo standard di utilizzare PHP</em>. Questa è la sua bellezza.
+                Questo sito vuole introdurre i nuovi sviluppatori PHP alle migliori pratiche, dando tutte le
+                opzioni a disposizione, e una buona informazione.
             </p>
 
             <h3>Attenzione</h3>
             <p>
                 <small><em>
-		Questo è un documento vivo e continuerà ad essere aggiornato con le informazioni più utili ed esempi
-                man mano che diventano disponibili.
+                    Questo è un documento vivo e continuerà ad essere aggiornato con le informazioni più utili ed
+                    esempi man mano che diventano disponibili.
                 </em></small>
             </p>
 
@@ -250,27 +254,28 @@ $stmt-&gt;execute();</pre>
         </section>
 
         <section class="content" id="password-hashing">
-            <h2>Password Hashing with Bcrypt</h2>
+            <h2>Criptazione delle Password con Bcrypt</h2>
             <p>
-                Eventually everyone builds a PHP application that relies on user login. Usernames and
-                (hashed) passwords are stored in a database and later used to authenticate users upon login.
+                Alla fine, la maggior parte delle applicazioni PHP, richiedono l'accesso degli utenti. Nomi utente e
+                password (criptate) sono archiviate nella base di dati e usate successivamente per autenticare gli
+                utenti durante l'accesso.
             </p>
             <p>
-                It is important that you properly <em>hash</em> passwords that are stored in a database.
-                If passwords are not hashed, and your database is hacked or accessed by an unauthorized
-                third-party, all user accounts are now compromised.
+                E' importante <em>criptare</em> adeguatamente le password che sono archiviate nelal pase di dati.
+                Se una password non è criptata e la base di dati viene attaccata o è accessibile ad utenti di terze
+                parti non autorizzati, tutte le credenziali degli utenti saranno compromesse.
             </p>
             <p>
-                <strong>Hash passwords with Bcrypt</strong>. It's super simple, and (for all
-                intents and purposes) Bcrypt makes it impossible for someone to reverse-engineer the
-                plain-text version of a password should the database be compromised.
+                <strong>Criptare una password con Bcrypt</strong>. E' molto semplce e (a tutti gli effetti) Bcrypt
+                rende impossibile per qualcuno risalire alla versione iniziale della password, anche se la base di
+                dati viene compromessa.
             </p>
             <p>
-                There are several Bcrypt libraries for PHP that you may use.
+                Ci sono diverse librerie Bcrypt per PHP che possono essere usate.
             </p>
             <ul>
-                <li><a href="http://codahale.com/how-to-safely-store-a-password/">Read "How to Safely Store a Password" by Coda Hale</a></li>
-                <li><a href="http://www.openwall.com/phpass/">Use Bcrypt with PHPAss</a> (odd name, I know)</li>
+                <li><a href="http://codahale.com/how-to-safely-store-a-password/">Leggi "How to Safely Store a Password" di Coda Hale</a></li>
+                <li><a href="http://www.openwall.com/phpass/">Usare Bcrypt con PHPAss</a> (strano nome, lo so)</li>
             </ul>
             <a class="top" href="#top">&uarr; Torna in cima</a>
         </section>
