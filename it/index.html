@@ -209,28 +209,31 @@
         </section>
 
         <section class="content" id="databases-and-pdo">
-            <h2>Databases and PDO</h2>
+            <h2>Basi di dati e PDO</h2>
             <p>
-                Many times your PHP code will use a database to persist information. If you use a database,
-                use <code>PDO</code> to talk with it. PDO is a database abstraction library &mdash; (usually) built-into
-                PHP &mdash; that provides a common interface to talk with many different databases.
+                Spesso il vostro codice PHP dovrà utilizzare una base di dati per salvare le informazioni. Se usate
+                una base di dati, usate <code>PDO</code> per dialogare con essa. PDO è una libreria di astrazione
+                &mdash; (solitamente) presente all'interno di PHP &mdash; che fornisce un'interfaccia generica per
+                dialogare con differenti basi di dati.
             </p>
             <p>
-                More importantly, <code>PDO</code> allows you to safely inject foreign input (e.g. IDs)
-                into your SQL queries without worrying about database SQL injection attacks. This is possible
-                using PDOStatements and bound parameters.
+                Ancora più importante, <code>PDO</code> vi consente di inserire in modo sicuro dati provenienti
+                dall'esterno (ad esempio ID) nelle vostre query SQL senza dovervi preoccupare di proteggervi da
+                tentativi di attacco tramite SQL injection. Questo è possibile utilizzando PDOStatements ed i
+                parametri associati.
             </p>
             <p>
-                Let's assume a PHP script receives a numeric ID as a query parameter. This ID
-                should be used to fetch a user record from a database. This is the <strong>wrong</strong>
-                way to do this:
+                Assumiamo che lo script PHP riceva un ID numerico che deve essere usato come parametro della query.
+                Questo ID deve essere utilizzato per estrarre un record dalla base di dati. Questo è il modo
+                <strong>errato</strong> per farlo:
             </p>
             <pre>&lt;?php
 $pdo = new PDO('sqlite:users.db');
 $pdo-&gt;query(&quot;SELECT * FROM users WHERE id = &quot; . $_GET['id']); // <-- NO!</pre>
             <p>
-                This is terrible code. You are inserting a raw query parameter into a SQL query. This will get
-                you hacked in a heartbeat. Instead, you should sanitize the ID input using PDO bound parameters.
+                Questo è un codice orribile. State inserendo un parametro in maniera grezza all'interno della query.
+                In questo modo sarete attaccati in men che non si dica. In alternativa potete procedere ripulendo
+                l'ID in ingresso utilizzando i parametri associati di PDO.
             </p>
             <pre>&lt;?php
 $pdo = new PDO('sqlite:users.db');
@@ -238,13 +241,14 @@ $stmt = $pdo-&gt;prepare('SELECT * FROM users WHERE id = :id');
 $stmt-&gt;bindParam(':id', (int)$_GET['id'], PDO::PARAM_INT);
 $stmt-&gt;execute();</pre>
             <p>
-                This is correct code. It uses a bound parameter on a PDO statement. This escapes the foreign
-                input ID before it is introduced to the database preventing potential SQL injection attacks.
+                Questo è il codice corretto. Utilizza i parametri associati in una dirittiva PDO, controlla i
+                parametri in ingresso prima che vengano inseriti nel database, prevenendo eventuali attacchi di
+                tipo SQL injeection.
             </p>
             <ul>
-                <li><a href="http://www.php.net/manual/en/book.pdo.php">Learn about PDO</a></li>
+                <li><a href="http://www.php.net/manual/en/book.pdo.php">Informati su PDO</a></li>
             </ul>
-            <a class="top" href="#top">&uarr; Back to Top</a>
+            <a class="top" href="#top">&uarr; Torna in cima</a>
         </section>
 
         <section class="content" id="password-hashing">
