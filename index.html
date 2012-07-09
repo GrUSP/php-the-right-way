@@ -144,7 +144,7 @@
             <h2>Code Style Guide</h2>
             <p>
                 The PHP community is large and diverse, composed of innumerable libraries, frameworks, and components.
-                It is common for PHP developers to choose several of these and combine them into a single project. Is is
+                It is common for PHP developers to choose several of these and combine them into a single project. It is
                 important that PHP code adhere (as close as possible) to a common code style to make it easy for developers
                 to mix and match various libraries for their projects.
             </p>
@@ -192,7 +192,7 @@
         <section class="content" id="input-filtering">
             <h2>Input Filtering</h2>
             <p>
-                Never ever (<em>ever</em>) trust foreign input introduced to your PHP code. That lead's to dark
+                Never ever (<em>ever</em>) trust foreign input introduced to your PHP code. That leads to dark
                 and dangerous places. Instead, always filter foreign input before you use it in your code.
             </p>
             <p>
@@ -305,8 +305,7 @@ $stmt-&gt;execute();</pre>
             </p>
             <pre>curl -s http://getcomposer.org/installer | php</pre>
             <p>
-                This will download <code>composer.phar</code> (a PHP binary archive). You can run this with <code>php</code>
-                to manage your project dependencies.
+                This will download <code>composer.phar</code> (a PHP binary archive). You can run this with <code>php</code> to manage your project dependencies. <strong>Please Note:</strong> If you pipe downloaded code directly into an interpreter, please read the code online first to confirm it is safe.
             </p>
 
             <h4>How to Define and Install Dependencies</h4>
@@ -316,7 +315,7 @@ $stmt-&gt;execute();</pre>
             </p>
             <pre>{
     "require": {
-        "twig/twig": ">=1.8.0"
+        "twig/twig": ">=1.8.0,<2.0-dev"
     }
 }</pre>
             <p>
@@ -369,26 +368,28 @@ $stmt-&gt;execute();</pre>
             <p>
                 <em>You do not need to use a framework for every project</em>. Sometimes, plain
                 PHP is the right way to go. But if you do need a framework, here are a few
-                of the most popular ones:
+                of the most popular ones (in alphabetical order):
             </p>
 
             <h3>Full-Stack Frameworks</h3>
             <ul>
-                <li><a href="http://symfony.com/">Symfony</a></li>
-                <li><a href="http://www.yiiframework.com/">Yii</a></li>
-                <li><a href="http://laravel.com/">Laravel</a></li>
-                <li><a href="http://kohanaframework.org/">Kohana</a></li>
-                <li><a href="http://fuelphp.com/">Fuel</a></li>
+                <li><a href="http://cakephp.org/">CakePHP</a></li>
                 <li><a href="http://codeigniter.com/">CodeIgniter</a></li>
+                <li><a href="http://fuelphp.com/">FuelPHP</a></li>
+                <li><a href="http://kohanaframework.org/">Kohana</a></li>
+                <li><a href="http://laravel.com/">Laravel</a></li>
+                <li><a href="http://lithify.me/">Lithium</a></li>
+                <li><a href="http://www.symfony.com/">Symfony</a></li>
+                <li><a href="http://www.yiiframework.com/">Yii</a></li>
                 <li><a href="http://framework.zend.com/">Zend</a></li>
-                <li><a href="http://cakephp.org/">Cake PHP</a></li>
             </ul>
 
             <h3>Micro Frameworks</h3>
             <ul>
+                <li><a href="http://bcosca.github.com/fatfree/">Fat-Free</a></li>
+                <li><a href="http://limonade-php.github.com/">Limonade</a></li>
                 <li><a href="http://silex.sensiolabs.org/">Silex</a></li>
                 <li><a href="http://www.slimframework.com/">Slim</a></li>
-                <li><a href="http://bcosca.github.com/fatfree/">Fat-Free</a></li>
             </ul>
             <a class="top" href="#top">&uarr; Back to Top</a>
         </section>
