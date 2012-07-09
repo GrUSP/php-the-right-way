@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <title>PHP: The Right Way</title>
-        <meta name="description" content="An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative PHP tutorials around the Web"/>
+        <title>{% if page.title %}{{ page.title }} - {% endif %}PHP: The Right Way</title>
+        <meta name="description" content="{{ page.description }}"/>
         <meta name="robots" content="index,follow,archive"/>
         <meta property="og:image" content="http://www.phptherightway.com/images/og-logo.png"/>
         <meta property="og:title" content="PHP: The Right Way"/>
@@ -29,21 +29,6 @@
         <header class="site-header">
             <div class="site-title"><a href="/">PHP</a></div>
             <div class="site-slogan">The Right Way.</div>
-            <nav>
-                <ul class="toc">
-                    <li><a href="#introduction">Introduction</a></li>
-                    <li><a href="#code_style_guide">Code Style Guide</a></li>
-                    <li><a href="#namespaces">Namespaces</a></li>
-                    <li><a href="#input_filtering">Input Filtering</a></li>
-                    <li><a href="#databases_and_pdo">Databases and PDO</a></li>
-                    <li><a href="#password_hashing_with_bcrypt">Password Hashing with Bcrypt</a></li>
-                    <li><a href="#dependency_management">Dependency Management</a></li>
-                    <li><a href="#web_application_security">Web Application Security</a></li>
-                    <li><a href="#command_line_interface">Command Line Interface</a></li>
-                    <li><a href="#popular_frameworks">Popular Frameworks</a></li>
-                    <li><a href="#links_and_resources">Links &amp; Resources</a></li>
-                </ul>
-            </nav>
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.phptherightway.com/" data-size="large" data-hashtags="php">Tweet</a>
         </header>
 
