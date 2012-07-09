@@ -1,26 +1,26 @@
-# Databases and PDO
+# Basi di dati e PDO
 
-Many times your PHP code will use a database to persist information. If you use a database, use `PDO` to talk with it. PDO is a database abstraction library &mdash; (usually) built into PHP &mdash; that provides a common interface to talk with many different databases.
+Spesso il vostro codice PHP dovrà utilizzare una base di dati per salvare le informazioni. Se usate una base di dati, usate `PDO` per dialogare con essa. PDO è una libreria di astrazione &mdash; (solitamente) presente all'interno di PHP &mdash; che fornisce un'interfaccia generica per dialogare con differenti basi di dati.
 
-More importantly, `PDO` allows you to safely inject foreign input (e.g. IDs) into your SQL queries without worrying about database SQL injection attacks. This is possible using PDOStatements and bound parameters.
+Ancora più importante, `PDO` vi consente di inserire in modo sicuro dati provenienti dall'esterno (ad esempio ID) nelle vostre query SQL senza dovervi preoccupare di proteggervi da tentativi di attacco tramite SQL injection. Questo è possibile utilizzando PDOStatements ed i parametri associati.
 
-Let's assume a PHP script receives a numeric ID as a query parameter. This ID should be used to fetch a user record from a database. This is the `wrong` way to do this:
+Assumiamo che lo script PHP riceva un ID numerico che deve essere usato come parametro della query. Questo ID deve essere utilizzato per estrarre un record dalla base di dati. Questo è il modo `errato` per farlo:
 
     <?php
     $pdo = new PDO('sqlite:users.db');
     $pdo->query("SELECT name FROM users WHERE id = " . $_GET['id']); // <-- NO!
 
-This is terrible code. You are inserting a raw query parameter into a SQL query. This will get you hacked in a heartbeat. Instead, you should sanitize the ID input using PDO bound parameters.
-
+Questo codice è orribile. State inserendo un parametro in maniera grezza all'interno della query. In questo modo sarete attaccati in men che non si dica. In alternativa potete procedere ripulendo l'ID in ingresso utilizzando i parametri associati di PDO.
+				
     <?php
     $pdo = new PDO('sqlite:users.db');
     $stmt = $pdo->prepare('SELECT name FROM users WHERE id = :id');
     $stmt->bindParam(':id', filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT), PDO::PARAM_INT);
     $stmt->execute();
 
-This is correct code. It uses a bound parameter on a PDO statement. This escapes the foreign input ID before it is introduced to the database preventing potential SQL injection attacks.
+Questo è il modo corretto di scrivere il codice. Utilizza i parametri associati in una dirittiva PDO, controlla i parametri in ingresso prima che vengano inseriti nel database, prevenendo eventuali attacchi di tipo SQL injeection.
 
-* [Learn about PDO][1]
+* [Informati su PDO][1]
 
 [Back to Top](#top){.top}
 

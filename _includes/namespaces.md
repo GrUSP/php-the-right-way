@@ -1,12 +1,12 @@
 # Namespaces
 
-As I mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP code may use the same class name as another library. When both libraries are used in the same namespace, they collide and cause trouble.
+Come ho già detto, la comunità PHP ha un sacco di sviluppatori che creano un sacco di codice. Ciò significa che il codice PHP di una libreria potrebbe utilizzare lo stesso nome per una _classe_ di un'altra libreria. Quando entrambe le librerie sono usate nello stesso namespace collidono e causano problemi.
 
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise, two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+I _Namespaces_ risolvono questo problema. Come descritto nel manuale di riferimento di PHP, i namespaces possono essere paragonati alle directory di un filesystem come i _namespace_ ai file; due file con lo stesso nome possono coesistere in directory separate. Allo stesso modo, due classi PHP con lo stesso nome possono coesistere nei namespace PHP separati. E' così semplice.
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding with other libraries.
+E' importante per voi usare i namespace all'interno del vostro codice in modo che possa essere utilizzato da altri sviluppatori, senza timore di collisioni tra librerie.
 
-* [Read about Namespaces][1]
+* [Leggi come funzionano i Namespaces][1]
 
 [Back to Top](#top){.top}
 

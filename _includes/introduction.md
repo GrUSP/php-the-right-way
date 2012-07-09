@@ -1,23 +1,23 @@
-# Introduction
+# Introduzione
 
-There's a lot of bad information on the Web (I'm looking at you, W3Schools) that leads new PHP users astray, propagating bad practices and bad code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web.
+C'è un sacco di cattiva informazione sul web (si, stiamo guardando te W3School) che porta i nuovi utenti di PHP fuori strada, che promuovono cattive pratiche e codice scritto male. Bisogna porre un
+freno a tutto ciò. _PHP: Nel modo corretto_ fornisce una guida facile da leggere sulle migliori pratiche di PHP, sui coding standard accettati, e link a tutorial in giro per il web.
 
-It is important to understand _there is no canonical way to use PHP_. That's the beauty of it. This website introduces new PHP developers to best practices, available options, and good information.
+E' importante capire _non c'è modo standard di utilizzare PHP_. Questa è la sua bellezza. Questo sito vuole introdurre i nuovi sviluppatori PHP alle migliori pratiche, dando tutte le opzioni a disposizione, e una buona informazione.
 
-## Disclaimer
+## Attenzione
 
-This is a living document and will continue to be updated with more helpful information and examples as they become available.
+Questo è un documento vivo e continuerà ad essere aggiornato con le informazioni più utili ed esempi man mano che diventano disponibili.
 
-## How to Contribute
+## Come Contribuire
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+Contribuite a rendere questo sito la miglior risorsa per i nuovi programmatori PHP! [Contribuite su GitHub][1]
 
-## Spread the Word!
+## Spargi la voce!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: Nel modo corretto_ ha banner ed immagini che puoi usare nel tuo sito. Mostraci il tuo aiuto, e fai conoscere ai nuovi sviluppatori PHP dove trovare buone informazioni!
 
-[See Banner Images][2]
+[Visualizza i banner][2]
 
 [Back to Top](#top){.top}
 

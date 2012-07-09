@@ -1,13 +1,13 @@
-# Input Filtering
+# Filtrare l'input
 
-Never ever (ever) trust foreign input introduced to your PHP code. That leads to dark and dangerous places. Instead, always filter foreign input before you use it in your code.
+Nel vostro codice PHP non dovete mai e poi mai ( _ma proprio mai_ ) dar fiducia all'input proveniente dall'esterno. E' un attaggiamento che porta in luoghi oscuri e pericolosi. Invece, è opportuno filtrare sempre l'input esterno prima di usarlo.
 
-PHP provides the `filter_var` and `filter_input` functions to help you do this. These two functions can sanitize text, verify formats (e.g. email addresses), and escape characters.
+PHP fornisce le funzioni di `filter_var` e `filter_input` per aiutarti a farlo. Queste due funzioni ripuliscono il testo, ne verificano il formato (ie. che sia un'email valida) e fanno l'escape dei caratteri.
 
-For example, if you accept code from an HTML form, you'll want to use `filter_input` before inserting the input into a database or inserting the input into an HTML response.
+Ad esempio, se accetti codice da una form HTML, dovrai usare la funzione di `filter_input` prima di usarla come input per un database o per inserirne il contenuto nell'HTML restituito.
 
-* [Learn about `filter_var`][1]
-* [Learn about `filter_input`][2]
+* [Impara ad usare `filter_var`][1]
+* [Impara ad usare `filter_input`][2]
 
 [Back to Top](#top){.top}
 

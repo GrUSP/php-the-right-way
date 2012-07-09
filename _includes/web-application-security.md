@@ -1,9 +1,8 @@
-# Web Application Security
+# Sicurezza delle applicazioni web
 
-There are bad people ready and willing to exploit your web application. It is important that you
- take necessary precautions to harden your web application's security. Luckily, the fine folks at [The Open Web Application Security Project][1] (OWASP) have compiled a comprehensive list of known security issues and methods to protect yourself against them. This is a must read for the security-conscious developer.
+In rete, ci sono cattive persone che vorrebbero _bucare_ la vostra applicazione. E' quindi importante prendere sempre le corrette precauzioni per rendere le applicazioni sicure. Fortunatamente, gli amici del [The Open Web Application Security Project][1] (OWASP) hanno compilato una lista comprensiva delle principali problematiche di sicurezza e dei migliori medoti per proteggerci da esse. Questa lista è sicuramente una lettura indispensabile per ogni sviluppatore che ci tenga alla sicurezza delle proprie applicazioni.
 
-* [Read the OWASP Security Guide][2]
+* [Leggi la guida sulla sicurezza di OWASP][2]
 
 [Back to Top](#top){.top}
 

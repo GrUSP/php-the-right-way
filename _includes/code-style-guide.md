@@ -1,14 +1,14 @@
-# Code Style Guide
+# Guida alla formattazione del codice
 
-The PHP community is large and diverse, composed of innumerable libraries, frameworks, and components. It is common for PHP developers to choose several of these and combine them into a single project. It is important that PHP code adhere (as close as possible) to a common code style to make it easy for developers to mix and match various libraries for their projects.
+La comunità PHP è ampia ed eterogenea, composta da innumerevoli librerie, framework e componenti. E' normale per gli sviluppatori PHP di scegliere alcuni di questi ed utilizzarli in un unico progetto. E' però importante, per il codice PHP aderire (il più vicino possibile) ad uno stile di codice comune per rendere più facile agli sviluppatori di combinare varie librerie per i loro progetti.
 
-The [Framework Interop Group][fig] (formerly known as the 'PHP Standards Group') has proposed and approved a series of style recommendations, known as [PSR-0][psr0], [PSR-1][psr1] and [PSR-2][psr2]. Don't let the funny names confuse you, these recommendations are merely a set of rules that some projects like Drupal, Zend, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium, etc are starting to adopt. You can use them for your own projects, or continue to use your own personal style.
+Il [Framework Interop Group][fig] (conosciuto anche come 'PHP Standards Group') ha proposto ed approvato una serie di guide alla formattazione del testo e scrittura del codice, conosciute come [PSR-0][psr0], [PSR-1][psr1] e [PSR-2][psr2]. Non lasciatevi però confondere da queste strane sigle, queste raccomandazione sono semplicemente un insieme condiviso di regole che alcuni progetti come Drupal, Zend, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium, etc hanno iniziato ad utilizzare. Potete usarle nel vostro progetto, o continuare ad usare il vostro personale stile.
 
-Ideally you should write PHP code that adheres to one or more of these standards so that other developers can easily read and work with your code. They all add on to the recommendation before, so using PSR-1 requires PSR-0, but does not require PSR-2.
+Idealmente dovresti scrivere il codice PHP affinchè aderisca a uno più di questi standard in modo tale che altri sviluppatori possano facilmente leggere e lavorare con il tuo codice. Gli standard sono dipendenti da quelli precedenti, ad esempio usando PSR-1 il codice dovrà essere conforme a PSR-0, ma potrebbe non esserlo con PSR-2.
 
-* [Read about PSR-0][psr0]
-* [Read about PSR-1][psr1]
-* [Read about PSR-2][psr2]
+* [Informati su PSR-0][psr0]
+* [Informati su PSR-1][psr1]
+* [Informati su PSR-2][psr2]
 
 [Back to Top](#top){.top}
 
