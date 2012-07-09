@@ -1,4 +1,4 @@
-﻿# Introduzione
+# Introduzione
 
 C'&egrave; un sacco di cattiva informazione sul web (si, stiamo guardando te W3School) che porta i nuovi utenti di PHP fuori strada, che promuovono cattive pratiche e codice scritto male. Bisogna porre un
 freno a tutto ci&ograve;. _PHP: Nel modo corretto_ fornisce una guida facile da leggere sulle migliori pratiche di PHP, sui coding standard accettati, e link a tutorial in giro per il web.
