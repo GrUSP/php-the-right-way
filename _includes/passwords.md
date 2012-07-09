@@ -1,4 +1,4 @@
-﻿# Criptazione delle Password con Bcrypt
+# Criptazione delle Password con Bcrypt
 
 Alla fine, la maggior parte delle applicazioni PHP, richiedono l'accesso degli utenti. Nomi utente e password (criptate) sono archiviate nella base di dati e usate successivamente per autenticare gli utenti durante l'accesso.
 

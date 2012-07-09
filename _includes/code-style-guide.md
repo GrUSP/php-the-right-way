@@ -1,4 +1,4 @@
-﻿# Guida alla formattazione del codice
+# Guida alla formattazione del codice
 
 La comunit&agrave; PHP &egrave; ampia ed eterogenea, composta da innumerevoli librerie, framework e componenti. E' normale per gli sviluppatori PHP di scegliere alcuni di questi ed utilizzarli in un unico progetto. E' per&ograve; importante, per il codice PHP aderire (il pi&ugrave; vicino possibile) ad uno stile di codice comune per rendere pi&ugrave; facile agli sviluppatori di combinare varie librerie per i loro progetti.
 

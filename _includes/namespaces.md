@@ -1,4 +1,4 @@
-﻿# Namespaces
+# Namespaces
 
 Come ho gi&agrave; detto, la comunit&agrave; PHP ha un sacco di sviluppatori che creano un sacco di codice. Ci&ograve; significa che il codice PHP di una libreria potrebbe utilizzare lo stesso nome per una _classe_ di un'altra libreria. Quando entrambe le librerie sono usate nello stesso namespace collidono e causano problemi.
 

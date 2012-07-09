@@ -1,4 +1,4 @@
-﻿# Links e Risorse
+# Links e Risorse
 
 Ci sono un po' di risorse che ha senso leggere.
 

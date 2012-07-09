@@ -1,4 +1,4 @@
-﻿# Framework popolari
+# Framework popolari
 
 Piuttosto che reinventare la ruota, molti sviluppatori PHP usano _framework_ per costruire le proprie applicazioni web. I framework astraggono molto del lavoro a basso libello e offrono interfacce comode e semplici per completare i task pi&ugrave; comuni.
 

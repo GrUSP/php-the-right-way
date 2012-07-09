@@ -1,4 +1,4 @@
-﻿# Filtrare l'input
+# Filtrare l'input
 
 Nel vostro codice PHP non dovete mai e poi mai ( _ma proprio mai_ ) dar fiducia all'input proveniente dall'esterno. E' un attaggiamento che porta in luoghi oscuri e pericolosi. Invece, &egrave; opportuno filtrare sempre l'input esterno prima di usarlo.
 

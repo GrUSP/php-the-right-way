@@ -1,4 +1,4 @@
-﻿# Basi di dati e PDO
+# Basi di dati e PDO
 
 Spesso il vostro codice PHP dovr&agrave; utilizzare una base di dati per salvare le informazioni. Se usate una base di dati, usate `PDO` per dialogare con essa. PDO &egrave; una libreria di astrazione &mdash; (solitamente) presente all'interno di PHP &mdash; che fornisce un'interfaccia generica per dialogare con differenti basi di dati.
 
