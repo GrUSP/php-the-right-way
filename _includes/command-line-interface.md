@@ -1,4 +1,4 @@
-# Command Line Interface
+﻿# Command Line Interface
 
 PHP was created primarily to write web applications, but it's also useful for scripting command line interface (CLI) programs, too. Command line PHP programs can help you automate common tasks like testing, deployment, and application administrativia.
 

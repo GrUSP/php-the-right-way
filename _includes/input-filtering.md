@@ -1,6 +1,6 @@
-# Filtrare l'input
+ï»¿# Filtrare l'input
 
-Nel vostro codice PHP non dovete mai e poi mai ( _ma proprio mai_ ) dar fiducia all'input proveniente dall'esterno. E' un attaggiamento che porta in luoghi oscuri e pericolosi. Invece, è opportuno filtrare sempre l'input esterno prima di usarlo.
+Nel vostro codice PHP non dovete mai e poi mai ( _ma proprio mai_ ) dar fiducia all'input proveniente dall'esterno. E' un attaggiamento che porta in luoghi oscuri e pericolosi. Invece, &egrave; opportuno filtrare sempre l'input esterno prima di usarlo.
 
 PHP fornisce le funzioni di `filter_var` e `filter_input` per aiutarti a farlo. Queste due funzioni ripuliscono il testo, ne verificano il formato (ie. che sia un'email valida) e fanno l'escape dei caratteri.
 

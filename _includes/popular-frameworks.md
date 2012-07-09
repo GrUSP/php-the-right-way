@@ -1,8 +1,8 @@
-# Framework popolari
+ï»¿# Framework popolari
 
-Piuttosto che reinventare la ruota, molti sviluppatori PHP usano _framework_ per costruire le proprie applicazioni web. I framework astraggono molto del lavoro a basso libello e offrono interfacce comode e semplici per completare i task più comuni.
+Piuttosto che reinventare la ruota, molti sviluppatori PHP usano _framework_ per costruire le proprie applicazioni web. I framework astraggono molto del lavoro a basso libello e offrono interfacce comode e semplici per completare i task pi&ugrave; comuni.
 
-_Non avete bisogno di usare un framework in ogni progettto_. Qualche volta, l'utilizzo di semplice PHP è il miglior modo di proseguire. Ma se necessitate di usare un framework, ecco qui di seguito una lista dei più popolari (ordinati alfabeticamente):
+_Non avete bisogno di usare un framework in ogni progettto_. Qualche volta, l'utilizzo di semplice PHP &egrave; il miglior modo di proseguire. Ma se necessitate di usare un framework, ecco qui di seguito una lista dei pi&ugrave; popolari (ordinati alfabeticamente):
 
 ## Full-Stack Frameworks
 

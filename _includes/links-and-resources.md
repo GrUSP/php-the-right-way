@@ -1,4 +1,4 @@
-# Links e Risorse
+ï»¿# Links e Risorse
 
 Ci sono un po' di risorse che ha senso leggere.
 
@@ -30,7 +30,7 @@ Ci sono un po' di risorse che ha senso leggere.
 
 #### GrUSP
 
-Il [GrUSP](http://www.grusp.org) è il gruppo di coordinamento di tutti gli user group italiani.  Ogni anno organizza eventi come il [phpDay](http://www.phpday.it) ed il [jsDay](http://www.jsday.it) con relatori ed ospiti provenienti da tutto il mondo. Sotto le ali del GrUSP sono stati creati alcuni PUG locali tra cui:
+Il [GrUSP](http://www.grusp.org) &egrave; il gruppo di coordinamento di tutti gli user group italiani.  Ogni anno organizza eventi come il [phpDay](http://www.phpday.it) ed il [jsDay](http://www.jsday.it) con relatori ed ospiti provenienti da tutto il mondo. Sotto le ali del GrUSP sono stati creati alcuni PUG locali tra cui:
 
 * [Bologna](http://bologna.grusp.org)
 * [Friuli](http://friuli.grusp.org)
@@ -42,6 +42,6 @@ Il [GrUSP](http://www.grusp.org) è il gruppo di coordinamento di tutti gli user 
 
 #### Drupal Italia
 
-L'[Associazione Drupal Italia](http://www.drupalitalia.org/) è un'organizzazione dedicata alla diffusione e alla conoscenza del CMS open source Drupal all'interno del territorio nazionale, collaborando con enti nazionali e internazionali del settore ICT.
+L'[Associazione Drupal Italia](http://www.drupalitalia.org/) &egrave; un'organizzazione dedicata alla diffusione e alla conoscenza del CMS open source Drupal all'interno del territorio nazionale, collaborando con enti nazionali e internazionali del settore ICT.
 
 [Back to Top](#top){.top}
