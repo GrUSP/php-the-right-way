@@ -23,6 +23,7 @@ Ci sono un po' di risorse che ha senso leggere.
 * [Red Hat OpenShift Platform](http://www.redhat.com/products/cloud-computing/openshift/)
 * [dotCloud](http://docs.dotcloud.com/services/php/)
 * [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/)
+* [cloudControl](https://www.cloudcontrol.com/)
 
 ## PHP User Group
 

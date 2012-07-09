@@ -1,0 +1,3 @@
+---
+  sourceFiles: ["_includes/introduction.md", "_includes/code-style-guide.md", "_includes/namespaces.md", "_includes/input-filtering.md", "_includes/databases.md", "_includes/passwords.md", "_includes/dependency-management.md", "_includes/web-application-security.md", "_includes/command-line-interface.md", "_includes/popular-frameworks.md", "_includes/links-and-resources.md"  ]
+  metadata: "metadata.xml"

@@ -21,7 +21,13 @@ Questo codice &egrave; orribile. State inserendo un parametro in maniera grezza 
 Questo &egrave; il modo corretto di scrivere il codice. Utilizza i parametri associati in una dirittiva PDO, controlla i parametri in ingresso prima che vengano inseriti nel database, prevenendo eventuali attacchi di tipo SQL injeection.
 
 * [Informati su PDO][1]
+* [Doctrine2 DBAL][2]
+* [ZF2 Db][3]
+* [ZF1 Db][4]
 
 [Back to Top](#top){.top}
 
 [1]: http://www.php.net/manual/en/book.pdo.php
+[2]: http://www.doctrine-project.org/projects/dbal.html
+[3]: http://packages.zendframework.com/docs/latest/manual/en/zend.db.html
+[4]: http://framework.zend.com/manual/en/zend.db.html
