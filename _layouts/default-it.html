@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PHP: Nel modo corretto</title>
+        <meta name="description" content="Una guida facile da leggere sulle migliori pratiche di PHP, sui coding standard accettati, e link a tutorial in giro per il web"/>
+        <meta name="robots" content="index,follow,archive"/>
+        <meta property="og:image" content="http://www.phptherightway.com/images/og-logo.png"/>
+        <meta property="og:title" content="PHP: Nel modo corretto"/>
+        <meta property="og:description" content="Una guida facile da leggere sulle migliori pratiche di PHP, sui coding standard accettati, e link a tutorial in giro per il web"/>
+        <meta property="og:url" content="http://phpnelmodocorretto.grusp.org/"/>
+        <meta property="og:site_name" content="PHP: Nel modo corretto"/>
+        <meta property="og:type" content="website"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif"/>
+        <link rel="stylesheet" href="/styles.css"/>
+        <link rel="icon" href="/images/favicon.png" type="image/png"/>
+        <script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3559597-9']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+        </script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-title"><a href="/">PHP</a></div>
+            <div class="site-slogan">Nel modo corretto.</div>
+            <nav>
+                <ul class="toc">
+                    <li><a href="#introduction">Introduzione</a></li>
+                    <li><a href="#code_style_guide">Guida alla formattazione del codice</a></li>
+                    <li><a href="#namespaces">Namespaces</a></li>
+                    <li><a href="#input_filtering">Filtrare l'input</a></li>
+                    <li><a href="#databases_and_pdo">Basi di dati e PDO</a></li>
+                    <li><a href="#password_hashing_with_bcrypt">Criptazione delle Password con Bcrypt</a></li>
+                    <li><a href="#dependency_management">Gestione delle Dipendenze</a></li>
+                    <li><a href="#web_application_security">Sicurezza delle Applicazioni Web</a></li>
+                    <li><a href="#command_line_interface">Command Line Interface</a></li>
+                    <li><a href="#popular_frameworks">Framework Popolari</a></li>
+                    <li><a href="#links_and_resources">Links &amp; Risorse</a></li>
+                </ul>
+            </nav>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.phptherightway.com/" data-size="large" data-hashtags="php">Tweet</a>
+        </header>
+
+        <div class="site-content">
+            {{ content }}
+        </div>
+
+        <footer class="site-footer">
+            <small>Creato e mantenuto da <a href="http://twitter.com/codeguy">Josh Lockhart</a>. Favicon di <a href="http://pictos.cc/">Pictos</a>. Tradotto dal <a href="http://www.grusp.org">GrUSP</a></small>
+        </footer>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </body>
+</html>
