@@ -8,5 +8,5 @@ Oltre ai framework per fare test individuale e di comportamento, ci sono ulterio
 
 ### Link agli strumenti
 
-* [Selenium](http://seleniumhq.org/) è un tool di automazione del browser che può essere [integrato con PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html)
-* [Mockery](https://github.com/padraic/mockery) è un framework per creare oggetti Mock che può essere integrato con [PHPUnit](http://phpunit.de/) o [PHPSpec](http://www.phpspec.net/)
+* [Selenium](http://seleniumhq.org/) Ã¨ un tool di automazione del browser che puÃ² essere [integrato con PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html)
+* [Mockery](https://github.com/padraic/mockery) Ã¨ un framework per creare oggetti Mock che puÃ² essere integrato con [PHPUnit](http://phpunit.de/) o [PHPSpec](http://www.phpspec.net/)

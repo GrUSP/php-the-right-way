@@ -10,7 +10,7 @@ I _Namespaces_ risolvono questo problema. Come descritto nel manuale di riferime
 
 E' importante per voi usare i namespace all'interno del vostro codice in modo che possa essere utilizzato da altri sviluppatori, senza timore di collisioni tra librerie.
 
-Un modo raccomandato di usare i namespace è indicato in [PSR-0][psr0], che indica una convenzione standard per creare file, classi e namespace.
+Un modo raccomandato di usare i namespace Ã¨ indicato in [PSR-0][psr0], che indica una convenzione standard per creare file, classi e namespace.
 
 * [Approfondisci i Namespaces][namespaces]
 * [Approfondisci PSR-0][psr0]
