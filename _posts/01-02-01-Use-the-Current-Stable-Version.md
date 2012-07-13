@@ -10,4 +10,3 @@ aggiungendo potenti [nuove caratteristiche](#language_highlights) negli ultimi a
 5.2 e 5.4, ci sono dei miglioramenti _importanti_.
 
 [php-release]: http://www.php.net/downloads.php
-
