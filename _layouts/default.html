@@ -18,7 +18,7 @@
         <link rel="icon" href="/images/favicon.png" type="image/png"/>
         <script>
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-362072-7']);
+        _gaq.push(['_setAccount', 'UA-3559597-9']);
         _gaq.push(['_trackPageview']);
         (function() {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -29,9 +29,9 @@
     </head>
     <body>
         <nav class="site-navigation">
-            <div class="build-date">Ultimo aggiornamento: {{ site.time }}</div>
+            <div class="build-date">Ultimo aggiornamento:<br/> {{ site.time }}</div>
             <ul>
-                <li><a href="/#site-header">Welcome</a></li>
+                <li><a href="/#site-header">Benvenuti</a></li>
                 {% assign lastIsChild = false %}
                 {% for post in site.posts reversed %}
                     {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
@@ -80,7 +80,7 @@
                 <ul class="mbd">
                     <li><a href="http://www.grusp.org">GrUSP</a></li>
                     <li><a href="http://www.ideato.it">Ideato</a></li>
-                </ul>				
+                </ul>
 				
                 <p>
                     <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHP: The Right Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.twitter.com/codeguy" property="cc:attributionName" rel="cc:attributionURL">Josh Lockhart</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.phptherightway.com" rel="dct:source">www.phptherightway.com</a>.

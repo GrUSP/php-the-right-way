@@ -1,6 +1,6 @@
 # Dependency Management
 
-There are a ton of PHP libraries, frameworks, and components to choose from. Your project will likely use several of them â€” these are project dependencies. Until recently, PHP did not have a good way to manage these project dependencies. Even if you managed them manually, you still had to worry about autoloaders. No more.
+There are a ton of PHP libraries, frameworks, and components to choose from. Your project will likely use several of them — these are project dependencies. Until recently, PHP did not have a good way to manage these project dependencies. Even if you managed them manually, you still had to worry about autoloaders. No more.
 
 Currently there are two major package management systems for PHP - Composer and PEAR. Which one is right for you? The answer is both.
 
