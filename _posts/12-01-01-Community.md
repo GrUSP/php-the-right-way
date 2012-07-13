@@ -1,12 +1,12 @@
-Ôªø# Comunit√†
+# Comunit‡
 
-La comunit√† di PHP √® sia grande che eterogenea, ed i suoi membri sono sempre pronti ad aiutare nuovi sviluppatori che si avvicinano al linguaggio. Per imparare le migliori pratiche potete considerare di partecipare al PHP User Group (PUG) locale o ad una delle maggiori conferenze su PHP. Esiste anche un canale IRC chiamato #phpc su irc.freenode.com dove chiaccherare o seguire l'account twitter [@phpc][phpc-twitter]. Esci un po', incontra nuovi sviluppatori, impara nuovi argomenti e fatti nuovi amici.
+La comunit‡ di PHP Ë sia grande che eterogenea, ed i suoi membri sono sempre pronti ad aiutare nuovi sviluppatori che si avvicinano al linguaggio. Per imparare le migliori pratiche potete considerare di partecipare al PHP User Group (PUG) locale o ad una delle maggiori conferenze su PHP. Esiste anche un canale IRC chiamato #phpc su irc.freenode.com dove chiaccherare o seguire l'account twitter [@phpc][phpc-twitter]. Esci un po', incontra nuovi sviluppatori, impara nuovi argomenti e fatti nuovi amici.
 
 [Segui il calendario ufficiale degli eventi PHP][php-calendar]
 
 ## PHP User Groups
 
-Se vivi in una grande citt√†, √® probabile che ci sia un PHP User Group nelle vicinanze. Nonostante non ci sia ancora una lista ufficiale dei PUG, puoi sempre cercare il PUG pi√π vicino a te usando [Google][google] o [Meetup.com][meetup]. Se vivi in una citt√† piccolina potrebbero non esserci PUG, in tal caso... perch√® non aprirne uno tu?
+Se vivi in una grande citt‡, Ë probabile che ci sia un PHP User Group nelle vicinanze. Nonostante non ci sia ancora una lista ufficiale dei PUG, puoi sempre cercare il PUG pi˘ vicino a te usando [Google][google] o [Meetup.com][meetup]. Se vivi in una citt‡ piccolina potrebbero non esserci PUG, in tal caso... perchË non aprirne uno tu?
 
 [Leggi informazioni sui PHP User Groups sul Wiki di PHP][php-wiki]
 
